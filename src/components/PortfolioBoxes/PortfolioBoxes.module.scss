@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|La+Belle+Aurore&display=swap');
+
+.portfolioBoxesWrapper {
+    width: 175px;
+    height: 700px;
+}
+
+.portfolioBox {
+    width: 175px;
+    height: 175px;
+    border: 1px solid rgba(229, 229, 229, 0.8);
+    font-family: 'ABeeZee', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    p {
+        font-family: ABeeZee, sans-serif;
+    font-size: 96px;
+    color: rgba(229, 229, 229, 0.8);
+    text-transform: uppercase;
+    }
+}
