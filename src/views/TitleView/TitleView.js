@@ -1,7 +1,7 @@
 import React from 'react';
 import PortfolioBoxes from '../../components/PortfolioBoxes/PortfolioBoxes';
 import styles from './TitleView.module.scss';
-// import styles from '../../style.module.scss';
+// import variable from '../../style.module.scss';
 
 
 const TitleView = () => (

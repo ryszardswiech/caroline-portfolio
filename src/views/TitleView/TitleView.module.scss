@@ -1,19 +1,21 @@
+// @import "../../global";
+
 .titleView {
-    width: 100%;
-    height: 100vh;
-    background: #C98383;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(119, 75, 75, 0.77);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .titleView::before {
-    position: absolute;
-        content: 'Karolina Święch';
-        font-family: 'la_belle_auroreregular';
-        font-size: 96px;
-        color: #FFFFFF;
+  position: absolute;
+  content: "Karolina Święch";
+  font-family: "la_belle_auroreregular";
+  font-size: 48px;
+  color: #ffffff;
 }
