@@ -2,7 +2,7 @@ import React from "react";
 import "./App.module.scss";
 import TitleView from "./views/TitleView/TitleView";
 import StoryView from "./views/StoryView/StoryView";
-import InnerMenuView from "./views/InnerMenuView/InnerMenu";
+import MenuWorksView from "./views/MenuWorksView/MenuWorksView";
 import "./fonts/stylesheet.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <TitleView />
       <StoryView />
-      <InnerMenuView />
+      <MenuWorksView />
     </div>
   );
 }
